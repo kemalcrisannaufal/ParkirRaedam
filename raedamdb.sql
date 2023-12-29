@@ -1,10 +1,10 @@
 CREATE TABLE PETUGASPARKIR ( 
-	idPetugas MEDIUMINT AUTO_INCREMENT PRIMARY KEY,
-    namaPetugas VARCHAR(15) NOT NULL,
-	emailPetugas VARCHAR(50) NOT NULL,
+    idPetugas MEDIUMINT AUTO_INCREMENT PRIMARY KEY,
+    namaPetugas VARCHAR(50) NOT NULL,
+    emailPetugas VARCHAR(50) NOT NULL,
     noHpPetugas VARCHAR(15) NOT NULL,
-    usernamePetugas VARCHAR(15) NOT NULL,
-    passwordPetugas VARCHAR(15) NOT NULL
+    usernamePetugas VARCHAR(20) NOT NULL,
+    passwordPetugas VARCHAR(20) NOT NULL
 );
 
 CREATE TABLE PENGATURANPARKIR(
